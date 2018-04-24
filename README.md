@@ -1,0 +1,1 @@
+DressAPP is an android application that enables users to browse/visit clothes stores around them and virtually try on their outfits based on their body measurements.
