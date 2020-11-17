@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:onClick="ToItemView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profileItemPic"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/common_google_signin_btn_icon_light"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"/>
+        <!--android:scaleType="centerCrop"-->
+
+            <TextView
+                android:id="@+id/profileItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clothes Name"
+                android:textSize="16sp"
+                android:fontFamily="@font/abeezee"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/profileItemBustSize"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Bust Size: N/A"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/profileItemWaistSize"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Waist Size: N/A"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/profileItemLength"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Length: ? cm"-->
+                <!--android:textSize="14sp" />-->
+
+            <TextView
+                android:id="@+id/hItemId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="invisible"
+                android:textSize="1sp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

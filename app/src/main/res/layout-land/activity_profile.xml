@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme">-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bg_gradient_blue"
+            android:theme="@style/MyActionBar"
+            app:popupTheme="@style/AppTheme" >
+
+        </android.support.v7.widget.Toolbar>
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_gradient_blue">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/activityProfilePic"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/example_profile_pic"
+                android:padding="3dp" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abeezee"
+                android:text="User Name"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_location_on_white_24dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:id="@+id/profile_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Technion, Haifa"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f5d573"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RATING"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/profile_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/menu_button_orange"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ITEMS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="About"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:layout_weight="4"/>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Some text about me\nCheck out my items!"
+                    android:textSize="16sp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        <!--<android.support.v4.widget.NestedScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/profileRV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+            </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+        <!--</android.support.v4.widget.NestedScrollView>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tops"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:paddingTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_gradient_gold"
+                android:textColor="@color/white"
+                android:fontFamily="@font/abeezee"
+                android:id="@+id/profile_tops"
+                android:onClick="ChangeTab"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pants"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:paddingTop="15dp"
+                android:layout_weight="1"
+                android:background="@color/grey_unselected"
+                android:textColor="@color/white"
+                android:fontFamily="@font/abeezee"
+                android:id="@+id/profile_pants"
+                android:onClick="ChangeTab"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shoes"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:paddingTop="15dp"
+                android:layout_weight="1"
+                android:background="@color/grey_unselected"
+                android:textColor="@color/white"
+                android:fontFamily="@font/abeezee"
+                android:id="@+id/profile_shoes"
+                android:onClick="ChangeTab"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Accessories"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:paddingTop="15dp"
+                android:layout_weight="1"
+                android:background="@color/grey_unselected"
+                android:textColor="@color/white"
+                android:fontFamily="@font/abeezee"
+                android:id="@+id/profile_accessories"
+                android:onClick="ChangeTab"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

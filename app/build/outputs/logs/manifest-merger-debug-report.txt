@@ -1,0 +1,750 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-core:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/5913c59cee74c97058fdd7344c693bd7/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:16:1-47:12
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.0.aar/03a243fb13aac1368554b09869d24e36/AndroidManifest.xml:2:1-13:12
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-database:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.0.aar/e1a910fab8730015f77d3d5e45fb4964/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.0.aar/e5f0329202e6a09ec3fc7a05b5ce288a/AndroidManifest.xml:2:1-4:12
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:2:1-85:12
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/0b414be8edb8ad6051b9ffa97ebd6016/AndroidManifest.xml:16:1-21:12
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.0.aar/defa86c69926605d45a4511a4e3dcebf/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-storage:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.6.0.aar/481cd32807935c80e6847da4b53c88e6/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/64b08c534e332b974c7c5acae6e7d659/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/3f091f4d81b5faf340259b35ba8c9b96/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/b3773f58b4b63347bb1d19b458d1ee5d/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.6.0.aar/0d1383d4f1c880a9a832740bd57f59f9/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:16:1-23:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:21:1-39:12
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/3be3b5d49e212e521f967d829b2bdcc4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:customtabs:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/1f6df36c4c7d2c8b4a28fd6a2b6f4ec5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mikepenz:materialdrawer:6.0.7] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/materialdrawer-6.0.7.aar/f1930563bd228a80feea0e378bc8cb18/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ef6319a6cffb4565486b3db6181308b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8dfbf6ff86173c3f1bba6a5a8fdc1f3d/AndroidManifest.xml:17:1-22:12
+MERGED from [org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/rangeseekbar-library-0.3.0.aar/87cf91091f561730719ade3d77369ec1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20a7b3d6afcd2152db75f41c4ab8371c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/67b66154a49a5971a78a1db42752d7ef/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4b74c04d8fe48fe89871925946220124/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/80e07fded9298350388785614243a64f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d95dc950001799890dcb940e96ef5ff1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/35c86fd59b2cee877cf83e815d75b9b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/60c7df5407b90af62a82fbe28bc77744/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5fdcb03956a329628d0b2a4d0c23b771/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7808cdaf35b390ba540905fe0c89978b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6fa7e861128eb3b6a3df26e12d0055ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/32b1ca8ee50ae387addf33a90c0c4673/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f174cf55f6170c34c00f5bd0e7ae9f82/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3812385f34d7ed21a53bcd35a2bdedad/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/e1e0443dbca2d56c2df6551348a69528/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.clans:fab:1.6.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/16c06fafbe24ef2a4c2bed52e980cb93/AndroidManifest.xml:2:1-14:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/2d21589f9482b26f15aff7e747a33165/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/81de58b1d7aef7a1bfefb35c7ade42f4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/7184e486c1e2adfe7867269de8892464/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/22cf433822185b1cf0613067b4cf687c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/902f89ae4fb81d578f3c00b8238b214b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.mikepenz:materialize:1.1.2] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/materialize-1.1.2.aar/63a7169e77af0575edcf3ada47b89813/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:iconics-core:3.0.3] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/iconics-core-3.0.3.aar/93115524a5f9d774c535a40c81a3abf9/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:fastadapter:3.2.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fastadapter-3.2.4.aar/4670ece3fe6e191f3c2e08665640241b/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fastadapter-extensions-expandable-3.2.4.aar/b429cf950eac97115b065026d328167e/AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/66de0e4d67a272f40d03da4b88393448/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9bfa8d7a32a9920317b83f839ce0f292/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e38afeb7dfa0fce4596583f7f466146c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/fc6f2503fb00f68a5be6a8dc9d9b24fd/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/adecfbf525a50915817f1812156dd00c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/757712861220e3374037d38c10a5510c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/7f2256fd766dbb41e21418626908fa82/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/921ae638aaf0395323cd7d676b4dd620/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/0a1f5b5927633f1b8f82af4a2da2cd7e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/0740500847fd30dd2f102524ebdc23e4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/085bac9fdd4c9a4b92827ce4914ae3f1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/6ef54482b6a7689a8f17f71ccd8a2eb3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/52a8a6968b837e4b6fc2ea74b34a9b0e/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/827cf028402b78080409094f89396db5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/3db9dcc744f8f721a1a8f6828ba51dd9/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+	package
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:20:5-66
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.0.aar/03a243fb13aac1368554b09869d24e36/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.0.aar/03a243fb13aac1368554b09869d24e36/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:8:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/5913c59cee74c97058fdd7344c693bd7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/5913c59cee74c97058fdd7344c693bd7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:29:5-46:19
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:12:5-83:19
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:12:5-83:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/0b414be8edb8ad6051b9ffa97ebd6016/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/0b414be8edb8ad6051b9ffa97ebd6016/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/b3773f58b4b63347bb1d19b458d1ee5d/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/b3773f58b4b63347bb1d19b458d1ee5d/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:19:5-21:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:28:5-37:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:28:5-37:19
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/3be3b5d49e212e521f967d829b2bdcc4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/3be3b5d49e212e521f967d829b2bdcc4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:customtabs:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/1f6df36c4c7d2c8b4a28fd6a2b6f4ec5/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/1f6df36c4c7d2c8b4a28fd6a2b6f4ec5/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/67b66154a49a5971a78a1db42752d7ef/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/67b66154a49a5971a78a1db42752d7ef/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/e1e0443dbca2d56c2df6551348a69528/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/e1e0443dbca2d56c2df6551348a69528/AndroidManifest.xml:9:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/16c06fafbe24ef2a4c2bed52e980cb93/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/16c06fafbe24ef2a4c2bed52e980cb93/AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/81de58b1d7aef7a1bfefb35c7ade42f4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/81de58b1d7aef7a1bfefb35c7ade42f4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/7184e486c1e2adfe7867269de8892464/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/7184e486c1e2adfe7867269de8892464/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/22cf433822185b1cf0613067b4cf687c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/22cf433822185b1cf0613067b4cf687c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/902f89ae4fb81d578f3c00b8238b214b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/902f89ae4fb81d578f3c00b8238b214b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/fc6f2503fb00f68a5be6a8dc9d9b24fd/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/fc6f2503fb00f68a5be6a8dc9d9b24fd/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/adecfbf525a50915817f1812156dd00c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/adecfbf525a50915817f1812156dd00c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/757712861220e3374037d38c10a5510c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/757712861220e3374037d38c10a5510c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/7f2256fd766dbb41e21418626908fa82/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/7f2256fd766dbb41e21418626908fa82/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/921ae638aaf0395323cd7d676b4dd620/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/921ae638aaf0395323cd7d676b4dd620/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/0a1f5b5927633f1b8f82af4a2da2cd7e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/0a1f5b5927633f1b8f82af4a2da2cd7e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/0740500847fd30dd2f102524ebdc23e4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/0740500847fd30dd2f102524ebdc23e4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/085bac9fdd4c9a4b92827ce4914ae3f1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/085bac9fdd4c9a4b92827ce4914ae3f1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/6ef54482b6a7689a8f17f71ccd8a2eb3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/6ef54482b6a7689a8f17f71ccd8a2eb3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/52a8a6968b837e4b6fc2ea74b34a9b0e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/52a8a6968b837e4b6fc2ea74b34a9b0e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/3db9dcc744f8f721a1a8f6828ba51dd9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/3db9dcc744f8f721a1a8f6828ba51dd9/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:10:9-48
+	android:allowBackup
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.technion.rbd.dressapp.MainActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:22:27-74
+activity#com.technion.rbd.dressapp.ProfileActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:25:9-28:47
+	android:screenOrientation
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:27:13-49
+	android:theme
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:28:13-44
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:26:13-44
+activity#com.technion.rbd.dressapp.ItemViewActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:29:9-31:59
+	android:theme
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:30:13-45
+activity#com.technion.rbd.dressapp.MenuActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:32:9-34:47
+	android:theme
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:33:13-41
+activity#com.technion.rbd.dressapp.EditProfileActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:35:9-37:47
+	android:theme
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:37:13-44
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:36:13-48
+meta-data#preloaded_fonts
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:39:9-41:57
+	android:resource
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:41:13-54
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:40:13-43
+activity#com.technion.rbd.dressapp.AddItemActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:43:9-53
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:43:19-50
+activity#com.technion.rbd.dressapp.MyOderActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:44:9-52
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:44:19-49
+activity#com.technion.rbd.dressapp.SendMessageActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:45:9-57
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:45:19-54
+service#com.technion.rbd.dressapp.BackEnd.FcmAPI
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:48:9-52:19
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:48:18-48
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:49:13-51:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:50:17-80
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:50:25-77
+service#com.technion.rbd.dressapp.BackEnd.FmsAPI
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:54:9-58:19
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:54:18-48
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:55:13-57:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:56:17-78
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:56:25-75
+activity#com.technion.rbd.dressapp.OrderItemDetailActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:60:9-61
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:60:19-58
+activity#com.technion.rbd.dressapp.MyItemsActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:61:9-53
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:61:19-50
+activity#com.technion.rbd.dressapp.MyItemDetailActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:62:9-58
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:62:19-55
+activity#com.technion.rbd.dressapp.ChatMenuActivity
+ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:63:9-63
+	android:name
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml:63:19-51
+uses-sdk
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/5913c59cee74c97058fdd7344c693bd7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/5913c59cee74c97058fdd7344c693bd7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:17:5-43
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.0.aar/03a243fb13aac1368554b09869d24e36/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.0.aar/03a243fb13aac1368554b09869d24e36/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.0.aar/e1a910fab8730015f77d3d5e45fb4964/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.0.aar/e1a910fab8730015f77d3d5e45fb4964/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.0.aar/e5f0329202e6a09ec3fc7a05b5ce288a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.0.aar/e5f0329202e6a09ec3fc7a05b5ce288a/AndroidManifest.xml:3:5-43
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/0b414be8edb8ad6051b9ffa97ebd6016/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/0b414be8edb8ad6051b9ffa97ebd6016/AndroidManifest.xml:17:5-43
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.0.aar/defa86c69926605d45a4511a4e3dcebf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-0.6.0.aar/defa86c69926605d45a4511a4e3dcebf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.6.0.aar/481cd32807935c80e6847da4b53c88e6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.6.0.aar/481cd32807935c80e6847da4b53c88e6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/64b08c534e332b974c7c5acae6e7d659/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/64b08c534e332b974c7c5acae6e7d659/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/3f091f4d81b5faf340259b35ba8c9b96/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/3f091f4d81b5faf340259b35ba8c9b96/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/b3773f58b4b63347bb1d19b458d1ee5d/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/b3773f58b4b63347bb1d19b458d1ee5d/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.6.0.aar/0d1383d4f1c880a9a832740bd57f59f9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.6.0.aar/0d1383d4f1c880a9a832740bd57f59f9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:17:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/3be3b5d49e212e521f967d829b2bdcc4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/palette-v7-23.4.0.aar/3be3b5d49e212e521f967d829b2bdcc4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/1f6df36c4c7d2c8b4a28fd6a2b6f4ec5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:23.4.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/1f6df36c4c7d2c8b4a28fd6a2b6f4ec5/AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:materialdrawer:6.0.7] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/materialdrawer-6.0.7.aar/f1930563bd228a80feea0e378bc8cb18/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:materialdrawer:6.0.7] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/materialdrawer-6.0.7.aar/f1930563bd228a80feea0e378bc8cb18/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ef6319a6cffb4565486b3db6181308b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ef6319a6cffb4565486b3db6181308b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8dfbf6ff86173c3f1bba6a5a8fdc1f3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8dfbf6ff86173c3f1bba6a5a8fdc1f3d/AndroidManifest.xml:20:5-44
+MERGED from [org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/rangeseekbar-library-0.3.0.aar/87cf91091f561730719ade3d77369ec1/AndroidManifest.xml:7:5-9:41
+MERGED from [org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/rangeseekbar-library-0.3.0.aar/87cf91091f561730719ade3d77369ec1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20a7b3d6afcd2152db75f41c4ab8371c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/20a7b3d6afcd2152db75f41c4ab8371c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/67b66154a49a5971a78a1db42752d7ef/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/67b66154a49a5971a78a1db42752d7ef/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4b74c04d8fe48fe89871925946220124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/4b74c04d8fe48fe89871925946220124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/80e07fded9298350388785614243a64f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/80e07fded9298350388785614243a64f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d95dc950001799890dcb940e96ef5ff1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d95dc950001799890dcb940e96ef5ff1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/35c86fd59b2cee877cf83e815d75b9b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/35c86fd59b2cee877cf83e815d75b9b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/60c7df5407b90af62a82fbe28bc77744/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/60c7df5407b90af62a82fbe28bc77744/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5fdcb03956a329628d0b2a4d0c23b771/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5fdcb03956a329628d0b2a4d0c23b771/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7808cdaf35b390ba540905fe0c89978b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7808cdaf35b390ba540905fe0c89978b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6fa7e861128eb3b6a3df26e12d0055ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6fa7e861128eb3b6a3df26e12d0055ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/32b1ca8ee50ae387addf33a90c0c4673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/32b1ca8ee50ae387addf33a90c0c4673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f174cf55f6170c34c00f5bd0e7ae9f82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f174cf55f6170c34c00f5bd0e7ae9f82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3812385f34d7ed21a53bcd35a2bdedad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3812385f34d7ed21a53bcd35a2bdedad/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/e1e0443dbca2d56c2df6551348a69528/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/e1e0443dbca2d56c2df6551348a69528/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/16c06fafbe24ef2a4c2bed52e980cb93/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/16c06fafbe24ef2a4c2bed52e980cb93/AndroidManifest.xml:8:5-10:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/2d21589f9482b26f15aff7e747a33165/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/2d21589f9482b26f15aff7e747a33165/AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/81de58b1d7aef7a1bfefb35c7ade42f4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/81de58b1d7aef7a1bfefb35c7ade42f4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/7184e486c1e2adfe7867269de8892464/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/7184e486c1e2adfe7867269de8892464/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/22cf433822185b1cf0613067b4cf687c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/22cf433822185b1cf0613067b4cf687c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/902f89ae4fb81d578f3c00b8238b214b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/902f89ae4fb81d578f3c00b8238b214b/AndroidManifest.xml:4:5-43
+MERGED from [com.mikepenz:materialize:1.1.2] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/materialize-1.1.2.aar/63a7169e77af0575edcf3ada47b89813/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.1.2] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/materialize-1.1.2.aar/63a7169e77af0575edcf3ada47b89813/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:3.0.3] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/iconics-core-3.0.3.aar/93115524a5f9d774c535a40c81a3abf9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:3.0.3] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/iconics-core-3.0.3.aar/93115524a5f9d774c535a40c81a3abf9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:3.2.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fastadapter-3.2.4.aar/4670ece3fe6e191f3c2e08665640241b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:3.2.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fastadapter-3.2.4.aar/4670ece3fe6e191f3c2e08665640241b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fastadapter-extensions-expandable-3.2.4.aar/b429cf950eac97115b065026d328167e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.2.4] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/fastadapter-extensions-expandable-3.2.4.aar/b429cf950eac97115b065026d328167e/AndroidManifest.xml:8:5-10:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/66de0e4d67a272f40d03da4b88393448/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/66de0e4d67a272f40d03da4b88393448/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9bfa8d7a32a9920317b83f839ce0f292/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9bfa8d7a32a9920317b83f839ce0f292/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e38afeb7dfa0fce4596583f7f466146c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e38afeb7dfa0fce4596583f7f466146c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/fc6f2503fb00f68a5be6a8dc9d9b24fd/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/fc6f2503fb00f68a5be6a8dc9d9b24fd/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/adecfbf525a50915817f1812156dd00c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/adecfbf525a50915817f1812156dd00c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/757712861220e3374037d38c10a5510c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/757712861220e3374037d38c10a5510c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/7f2256fd766dbb41e21418626908fa82/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/7f2256fd766dbb41e21418626908fa82/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/921ae638aaf0395323cd7d676b4dd620/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/921ae638aaf0395323cd7d676b4dd620/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/0a1f5b5927633f1b8f82af4a2da2cd7e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/0a1f5b5927633f1b8f82af4a2da2cd7e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/0740500847fd30dd2f102524ebdc23e4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/0740500847fd30dd2f102524ebdc23e4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/085bac9fdd4c9a4b92827ce4914ae3f1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/085bac9fdd4c9a4b92827ce4914ae3f1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/6ef54482b6a7689a8f17f71ccd8a2eb3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/6ef54482b6a7689a8f17f71ccd8a2eb3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/52a8a6968b837e4b6fc2ea74b34a9b0e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/52a8a6968b837e4b6fc2ea74b34a9b0e/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.core:runtime:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/827cf028402b78080409094f89396db5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/827cf028402b78080409094f89396db5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/3db9dcc744f8f721a1a8f6828ba51dd9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/3db9dcc744f8f721a1a8f6828ba51dd9/AndroidManifest.xml:4:5-43
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yung-chenghsu/Documents/Escritorio/Technion/Android_Project/V1.1/2018b-DressApp/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/0c43154188e4d569beb52f464149afd6/AndroidManifest.xml:23:18-87
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/fd7b9e341610a9a771f78abb281450a1/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/7593a3a7b528d1b367fdedc2b09b857e/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:25:17-71
+permission#com.technion.rbd.dressapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:27:22-76
+uses-permission#com.technion.rbd.dressapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:31:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:32:13-35:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.technion.rbd.dressapp
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:34:27-58
+category#com.technion.rbd.dressapp
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/39822325430d4713fb886eb5d7ea7313/AndroidManifest.xml:40:18-82
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:14:9-16:69
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:13:9-15:69
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:13:9-15:69
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/d07419f9293891aec0c46084c007a211/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.6.0.aar/988bbe9c61b58a3d00214950d80ddf17/AndroidManifest.xml:15:13-58
+activity#com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:17:9-20:56
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:19:13-76
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:20:13-53
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:18:13-88
+activity#com.firebase.ui.auth.ui.email.EmailHintContainerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:21:9-24:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:23:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:24:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:22:13-84
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:25:9-28:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:27:13-68
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:28:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:26:13-81
+activity#com.firebase.ui.auth.ui.email.RegisterEmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:29:9-32:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:31:13-66
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:32:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:30:13-79
+activity#com.firebase.ui.auth.ui.email.SignInNoPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:33:9-36:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:35:13-71
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:36:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:34:13-82
+activity#com.firebase.ui.auth.ui.email.SignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:37:9-40:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:39:13-59
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:40:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:38:13-72
+activity#com.firebase.ui.auth.ui.account_link.SaveCredentialsActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:41:9-44:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:43:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:44:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:42:13-88
+activity#com.firebase.ui.auth.ui.account_link.WelcomeBackIDPPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:45:9-48:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:47:13-66
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:48:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:46:13-85
+activity#com.firebase.ui.auth.ui.account_link.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:49:9-52:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:51:13-71
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:52:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:50:13-90
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:53:9-56:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:55:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:56:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:54:13-80
+activity#com.firebase.ui.auth.ui.idp.IDPSignInContainerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:57:9-60:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:59:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:60:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:58:13-82
+activity#com.firebase.ui.auth.ui.ChooseAccountActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:61:9-64:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:63:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:64:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:62:13-73
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:65:9-70:45
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:29:9-32:75
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:29:9-32:75
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:68:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:67:13-96
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:69:13-58
+		REJECTED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:32:13-72
+	tools:replace
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:70:13-42
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:66:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:71:9-82:20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:33:9-36:20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/82da6f93e60a3d2676a479ec2036c473/AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:72:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:74:13-81:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:75:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:77:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:78:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:78:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:80:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/db368d9a7c2b06ffbd08fbbcfb72e871/AndroidManifest.xml:80:23-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/21e346c6a7318bd1fa9920c40a02f6e2/AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/2a7920715fc64183ea950ff4997d8c71/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/451fbd2a4ba780a6990b37035b8af2d6/AndroidManifest.xml:19:19-85
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/yung-chenghsu/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/5217c3c38641f20111218c52c5fd10b3/AndroidManifest.xml:9:13-64

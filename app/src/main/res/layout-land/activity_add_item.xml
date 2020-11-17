@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_AddItem"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/menu_button_orange"
+            android:theme="@style/MyActionBar"
+            app:popupTheme="@style/AppTheme" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/itemPic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="fill"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_placeholder" />
+
+            <ImageButton
+                android:id="@+id/addItem_uploadPic"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/ripple_oval"
+                android:src="@drawable/ic_camera_alt_white_24dp" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/addItem_tops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseCat"
+                        android:text="Tops"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/addItem_pants"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseCat"
+                        android:text="Pants"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/addItem_shoes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseCat"
+                        android:text="Shoes"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/addItem_accessories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseCat"
+                        android:text="Accessories"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/addItem_dress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseCat"
+                        android:text="Dress"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/addItem_skirts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseCat"
+                        android:text="Skirts"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/addItem_itemName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Item Name"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:textColorHint="@color/grey_unselected" />
+
+                <FrameLayout
+                    android:id="@+id/addItemFragmentTops"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/addItem_men"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseGender"
+                        android:text="Men"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/addItem_neutral"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseGender"
+                        android:text="Neutral"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/addItem_women"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tag_round_corner_dummy"
+                        android:fontFamily="@font/abeezee"
+                        android:gravity="center_vertical"
+                        android:onClick="ChooseGender"
+                        android:text="Women"
+                        android:textAlignment="center"
+                        android:textColor="@color/filter_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/addItem_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:gravity="top|left"
+                    android:hint="Add description here..."
+                    android:maxLength="300"
+                    android:textColorHint="@color/grey_unselected" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

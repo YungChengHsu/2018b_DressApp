@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_toolbar_myOrder"
+        android:icon="@drawable/ic_local_grocery_store_grey_24dp"
+        android:title="myOrder"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_toolbar_inbox"
+        android:icon="@drawable/ic_message_gray_24dp"
+        android:title="inbox"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_toolbar_search"
+        android:icon="@drawable/ic_search_grey_24dp"
+        android:title="search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_toolbar_userPic"
+
+        android:title="myOrder"
+        app:showAsAction="always" />
+
+</menu>

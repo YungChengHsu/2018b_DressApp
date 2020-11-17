@@ -3,11 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.rbd.dressapp"
+        applicationId "com.technion.rbd.dressapp"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -15,15 +15,60 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+        debug {
+            debuggable true
+        }
+    }
+    sourceSets{
+        main { java.srcDirs = ['src/main/java'] }
+        test { java.srcDirs = ['src/test/java'] }
+        androidTest { java.srcDirs = ['src/androidTest/java'] }
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.google.firebase:firebase-database:11.6.0'
+    implementation 'com.google.firebase:firebase-messaging:11.6.0'
+    // originally 11.8
+    //implementation 'com.google.firebase:firebase-messaging:11.8.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // 11.0.4
+    implementation 'com.google.firebase:firebase-auth:11.6.0'
+    implementation 'com.google.android.gms:play-services-auth:11.6.0'
+    //facebook dependency
+    //implementation 'com.facebook.android:facebook-login:[4,5)'
+    implementation 'com.google.firebase:firebase-database:11.6.0'
+    implementation 'com.google.firebase:firebase-storage:11.6.0'
+    implementation 'com.google.firebase:firebase-core:11.6.0'
+    implementation('com.mikepenz:materialdrawer:6.0.7@aar') {
+        transitive = true
+    }
+    // Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    implementation 'com.google.firebase:firebase-core:11.6.0'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0'
+
+    //Chat
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.firebaseui:firebase-ui:0.6.0'
 }
+
+apply plugin: 'com.google.gms.google-services'

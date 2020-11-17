@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile_toolbar_logout"
+        android:icon="@drawable/exit"
+        android:title="logout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/profile_toolbar_contact"
+        android:icon="@drawable/ic_chat_bubble_outline_white_24dp"
+        android:title="contact"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/profile_toolbar_edit"
+        android:icon="@drawable/ic_edit_white_24dp"
+        android:title="edit"
+        app:showAsAction="always"
+        android:onClick="ToEditProfile"/>
+
+
+</menu>

@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">DressApp</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Google login app id -->
+    <string name="web_app_client_id">33832261759-nht1s2dv088spi0d02to9lshvkf8tger.apps.googleusercontent.com</string>
+    <!-- Facebook login app info -->
+    <string name="facebook_app_id">1760169417359594</string>
+    <string name="fb_login_protocol_scheme">fb1760169417359594</string>
+    <string name="title_activity_items_api">itemsApi</string>
+    <string name="title_activity_bla">BlaActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

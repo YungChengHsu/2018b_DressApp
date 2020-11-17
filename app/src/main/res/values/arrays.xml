@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delivery_options">
+        <item>Pending</item>
+        <item>Delivering</item>
+        <item>Arrived</item>
+    </string-array>
+
+    <string-array name="rating_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="hips_options">
+        <item>33</item>
+        <item>33.5</item>
+        <item>34</item>
+        <item>34.5</item>
+        <item>35</item>
+        <item>35.5</item>
+        <item>36</item>
+        <item>36.5</item>
+        <item>37</item>
+        <item>37.5</item>
+        <item>38</item>
+        <item>38.5</item>
+        <item>39</item>
+        <item>39.5</item>
+        <item>40</item>
+        <item>40.5</item>
+        <item>41</item>
+        <item>41.5</item>
+        <item>42</item>
+        <item>42.5</item>
+        <item>43</item>
+        <item>43.5</item>
+        <item>44</item>
+        <item>44.5</item>
+        <item>45</item>
+        <item>45.5</item>
+        <item>46</item>
+    </string-array>
+
+    <string-array name="shoes_options">
+        <item>20</item>
+        <item>20.5</item>
+        <item>21</item>
+        <item>21.5</item>
+        <item>22</item>
+        <item>22.5</item>
+        <item>23</item>
+        <item>23.5</item>
+        <item>24</item>
+        <item>24.5</item>
+        <item>25</item>
+        <item>25.5</item>
+        <item>26</item>
+        <item>26.5</item>
+        <item>27</item>
+        <item>27.5</item>
+        <item>28</item>
+        <item>28.5</item>
+        <item>29</item>
+        <item>29.5</item>
+        <item>30</item>
+        <item>30.5</item>
+        <item>31</item>
+        <item>31.5</item>
+        <item>32</item>
+    </string-array>
+
+    <string-array name="tops_options">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <string-array name="waist_options">
+        <item>20</item>
+        <item>20.5</item>
+        <item>21</item>
+        <item>21.5</item>
+        <item>22</item>
+        <item>22.5</item>
+        <item>23</item>
+        <item>23.5</item>
+        <item>24</item>
+        <item>24.5</item>
+        <item>25</item>
+        <item>25.5</item>
+        <item>26</item>
+        <item>26.5</item>
+        <item>27</item>
+        <item>27.5</item>
+        <item>28</item>
+        <item>28.5</item>
+        <item>29</item>
+        <item>29.5</item>
+        <item>30</item>
+        <item>30.5</item>
+        <item>31</item>
+        <item>31.5</item>
+        <item>32</item>
+        <item>32.5</item>
+        <item>33</item>
+        <item>33.5</item>
+        <item>34</item>
+        <item>34.5</item>
+        <item>35</item>
+        <item>35.5</item>
+        <item>36</item>
+        <item>36.5</item>
+        <item>37</item>
+        <item>37.5</item>
+        <item>38</item>
+        <item>38.5</item>
+        <item>39</item>
+        <item>39.5</item>
+        <item>40</item>
+        <item>40.5</item>
+    </string-array>
+
+    <string-array name="bust_options">
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Men</item>
+        <item>Women</item>
+    </string-array>
+
+    <string-array name="category_options">
+        <item>Accessories</item>
+        <item>Pants</item>
+        <item>Shoes</item>
+        <item>Tops</item>
+    </string-array>
+</resources>

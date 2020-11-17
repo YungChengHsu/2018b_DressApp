@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/chatMenu_pic"
+            android:src="@drawable/default_profile_pic"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/chatMenu_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/chatMenu_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message Body\nSecond Line"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/chatMenu_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="right|start"
+        android:layout_weight="5"
+        android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="#bababa"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="3dp"/>
+</LinearLayout>

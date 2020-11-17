@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_AddItem"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/menu_button_orange"
+            android:theme="@style/MyActionBar"
+            app:popupTheme="@style/AppTheme" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <ImageView
+            android:id="@+id/itemPic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="fill"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_placeholder" />
+
+        <ImageButton
+            android:id="@+id/addItem_uploadPic"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/ripple_oval"
+            android:src="@drawable/ic_camera_alt_white_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addItem_tops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:gravity="center_vertical"
+                android:onClick="ChooseCat"
+                android:text="Tops"
+                android:textAlignment="center"
+                android:textColor="@color/filter_grey"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Pants"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_pants"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseCat"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Shoes"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_shoes"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseCat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Accessories"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_accessories"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseCat"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Dress"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_dress"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseCat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Skirts"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_skirts"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseCat"/>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/addItem_itemName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Item Name"
+            android:textColorHint="@color/grey_unselected"
+            android:maxLength="20"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addItemFragmentTops">
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="10dp">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="100dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Size: "-->
+                        <!--android:textColor="@color/filter_grey"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:layout_weight="1"/>-->
+
+                    <!--<Spinner-->
+                        <!--android:id="@+id/addItem_bustSize"-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:entries="@array/tops_options"-->
+                        <!--android:layout_weight="1"></Spinner>-->
+
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+        </FrameLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Bust Size (cm): "-->
+                <!--android:textColor="@color/filter_grey"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<Spinner-->
+                <!--android:id="@+id/addItem_bustSize"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:entries="@array/bust_options"-->
+                <!--android:layout_weight="1"></Spinner>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Waist Size (inch): "-->
+                <!--android:textColor="@color/filter_grey"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<Spinner-->
+                <!--android:id="@+id/addItem_waistSize"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:entries="@array/waist_options"-->
+                <!--android:layout_weight="1"></Spinner>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Length (cm): "-->
+                <!--android:textColor="@color/filter_grey"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/addItem_length"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="numberSigned" />-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Men"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_men"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseGender"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Neutral"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_neutral"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseGender"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Women"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/addItem_women"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseGender"/>
+
+        </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:hint="Add description here..."
+                android:textColorHint="@color/grey_unselected"
+                android:backgroundTint="@android:color/transparent"
+                android:gravity="top|left"
+                android:id="@+id/addItem_description"
+                android:maxLength="300"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

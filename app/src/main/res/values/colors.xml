@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#3367ae</color>
+    <color name="colorPrimaryDark">#1d3e6c</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorFacebook">#3b5998</color>
+    <color name="colorGoogle">#4285f4</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_shaded">#c6cbd3</color>
+    <color name="grey_light">#c6eceef1</color>
+    <color name="black">#000000</color>
+    <color name="menu_button_orange">#e1a306</color>
+    <color name="menu_button_purple">#cf3f41</color>
+    <color name="menu_add_button">#0a45c4</color>
+    <color name="filter_grey">#6a6a6c</color>
+    <color name="translucentColor">#2e000000</color>
+    <color name="grey_unselected">#d6d6d7</color>
+    <color name="background_gold">#e7d5ae</color>
 </resources>

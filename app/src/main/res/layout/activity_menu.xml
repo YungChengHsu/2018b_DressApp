@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme">-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_Menu"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:theme="@style/MyActionBar"
+            app:popupTheme="@style/AppTheme">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/all_black_transparent"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/capriola"
+                android:text="DressAPP"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_filter"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:background="@color/white"
+                android:theme="@style/MenuFilterBar">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tag_round_corner_dummy"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Gender"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:id="@+id/menu_genderTab"
+                    android:textColor="@color/filter_grey"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tag_round_corner_dummy"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Category"
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:id="@+id/menu_categoryTab"
+                    android:textColor="@color/filter_grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menuRV"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </android.support.v7.widget.RecyclerView>
+
+    <!--</android.support.v4.widget.NestedScrollView>-->
+
+    </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:menu_colorNormal="@color/menu_button_orange"
+            app:menu_colorPressed="@color/colorFacebook"
+            app:menu_fab_label="Category"
+            app:menu_fab_size="normal"
+            app:menu_icon="@drawable/ic_list_white_24dp"
+            app:menu_openDirection="up"
+            app:menu_showShadow="true"
+            android:id="@+id/menu_catFam">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setCatLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Tops"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setCatLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Pants"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setCatLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Shoes"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setCatLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Accessories"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setCatLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Dress"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setCatLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Skirts"
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:menu_colorNormal="@color/menu_button_orange"
+            app:menu_colorPressed="@color/colorFacebook"
+            app:menu_fab_label="Gender"
+            app:menu_fab_size="normal"
+            app:menu_icon="@drawable/ic_wc_white_24dp"
+            app:menu_labels_position="right"
+            app:menu_openDirection="up"
+            app:menu_showShadow="true"
+            android:id="@+id/menu_genFam">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setGenderLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Men"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setGenderLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Neutral"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setGenderLabel"
+                app:fab_colorNormal="@color/colorFacebook"
+                app:fab_colorPressed="@color/colorGoogle"
+                app:fab_label="Women"
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/fab_add"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ripple_oval"
+        android:onClick="ToAddItem"
+        android:padding="5dp"
+        android:src="@drawable/ic_add_black_24dp"></ImageButton>
+
+    <!--<com.github.clans.fab.FloatingActionMenu-->
+        <!--android:id="@+id/fab_add"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:onClick="ToAddItem"-->
+        <!--android:src="@drawable/ic_add_black_24dp"-->
+        <!--app:menu_colorNormal="@color/menu_button_orange"-->
+        <!--app:menu_colorPressed="@color/colorFacebook"/>-->
+
+</RelativeLayout>

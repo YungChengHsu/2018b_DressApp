@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FragmentAddItemDress">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Bust Size (cm): "
+        android:textColor="@color/filter_grey"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+        <Spinner
+        android:id="@+id/addItem_dress_bustSize"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/bust_options"
+        android:layout_weight="1"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Waist Size (inch): "
+        android:textColor="@color/filter_grey"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+        <Spinner
+        android:id="@+id/addItem_dress_waistSize"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/waist_options"
+        android:layout_weight="1"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Hip Size (inch): "
+                android:textColor="@color/filter_grey"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/addItem_dress_hipSize"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/hips_options"
+                android:layout_weight="1"></Spinner>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

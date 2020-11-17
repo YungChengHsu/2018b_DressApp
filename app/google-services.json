@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "33832261759",
+    "firebase_url": "https://dressapp-93405.firebaseio.com",
+    "project_id": "dressapp-93405",
+    "storage_bucket": "dressapp-93405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33832261759:android:70fa2ae2484f49e4",
+        "android_client_info": {
+          "package_name": "com.example.rbd.dressapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33832261759-gjicq1hknujaq5eal3ridcr6donldi49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rbd.dressapp",
+            "certificate_hash": "efabbcf8c7863012941ef258d9b84322a94a1566"
+          }
+        },
+        {
+          "client_id": "33832261759-09c2mkj2snn07tm50q1h9is7ee4i467k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rbd.dressapp",
+            "certificate_hash": "7d1600833618ee3707068db772755d0003638c01"
+          }
+        },
+        {
+          "client_id": "33832261759-nht1s2dv088spi0d02to9lshvkf8tger.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "33832261759-v1semq1gqkbvb9rh4gls5t6o5dml4ct7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rbd.dressapp",
+            "certificate_hash": "64096007faf543b23e03b80e3c309b161acce7e9"
+          }
+        },
+        {
+          "client_id": "33832261759-m5di4ds79d34r1d7p0vfauhaletts8pu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "33832261759-m5di4ds79d34r1d7p0vfauhaletts8pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCztMug61mjIJ4rxg2NpNuo9sLD6zLKQZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33832261759-nht1s2dv088spi0d02to9lshvkf8tger.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33832261759:android:c08841c00170e2d3",
+        "android_client_info": {
+          "package_name": "com.technion.rbd.dressapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33832261759-uev0trj917dfb73bq4ffj8ianv3mke30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technion.rbd.dressapp",
+            "certificate_hash": "64096007faf543b23e03b80e3c309b161acce7e9"
+          }
+        },
+        {
+          "client_id": "33832261759-vm603deu5s0mn32nu8qhg57lok7u9hn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technion.rbd.dressapp",
+            "certificate_hash": "5dd8b638a6467dfb063f84999c379fc276eda24d"
+          }
+        },
+        {
+          "client_id": "33832261759-ukqi2jib872sht77c7ma54t40uqg8gqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technion.rbd.dressapp",
+            "certificate_hash": "7d1600833618ee3707068db772755d0003638c01"
+          }
+        },
+        {
+          "client_id": "33832261759-mdkmj2v13v4crvu6ruun54vpsfcn1kb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technion.rbd.dressapp",
+            "certificate_hash": "1d7a22c76e00c2ac2d9cd73c92e258b817fe03ed"
+          }
+        },
+        {
+          "client_id": "33832261759-ft608u6dh9n0chpei683q4c79oldbmkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technion.rbd.dressapp",
+            "certificate_hash": "efabbcf8c7863012941ef258d9b84322a94a1566"
+          }
+        },
+        {
+          "client_id": "33832261759-nht1s2dv088spi0d02to9lshvkf8tger.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "33832261759-m5di4ds79d34r1d7p0vfauhaletts8pu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "33832261759-m5di4ds79d34r1d7p0vfauhaletts8pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCztMug61mjIJ4rxg2NpNuo9sLD6zLKQZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33832261759-nht1s2dv088spi0d02to9lshvkf8tger.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

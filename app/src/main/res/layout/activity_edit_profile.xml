@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_EditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/menu_button_orange"
+            android:theme="@style/MyActionBar"
+            app:popupTheme="@style/AppTheme" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp">
+
+            <ImageView
+                android:id="@+id/editProfilePic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="fill"
+                android:src="@drawable/default_profile_pic" />
+
+            <ImageButton
+                android:id="@+id/editProfile_uploadPic"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/ripple_oval"
+                android:src="@drawable/ic_camera_alt_white_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Men"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/editProfile_men"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseGender"/>
+
+            <TextView
+                android:id="@+id/editProfile_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:gravity="center_vertical"
+                android:onClick="ChooseGender"
+                android:text="Other"
+                android:textAlignment="center"
+                android:textColor="@color/filter_grey"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_round_corner_dummy"
+                android:fontFamily="@font/abeezee"
+                android:text="Women"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/editProfile_women"
+                android:textColor="@color/filter_grey"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="ChooseGender"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editProfile_name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:textColorHint="@color/grey_unselected"
+            android:maxLength="30"/>
+
+        <EditText
+            android:id="@+id/editProfile_location"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Location"
+            android:textColorHint="@color/grey_unselected"
+            android:maxLength="30"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:fontFamily="@font/abeezee"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/filter_grey"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tell others more about yourself"
+            android:fontFamily="@font/abeezee"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/filter_grey" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="About me"
+            android:textColorHint="@color/grey_unselected"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="top|left"
+            android:id="@+id/editProfile_aboutMe"
+            android:maxLength="300"/>
+
+    </LinearLayout>
+
+</LinearLayout>
