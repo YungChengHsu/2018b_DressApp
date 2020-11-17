@@ -1,10 +1,14 @@
 # 2018b-DressApp
 
+#### This is a [project](https://icst.cs.technion.ac.il/projects/sdl/?pr_year=2018) created within the course *Android Project 236503 + 236504* from the Technion - Israel Institute of Technology
+
 # DressAPP
 
 Our application aims at providing a simple and easy to use clothes sharing platform.
 Users whom willing to give away their clothes can easily add a post with the items details and picture.
 Users whom willing to take clothes available can contact the item's owner and arrange the deal.
+
+![Project Poster](https://github.com/YungChengHsu/2018b_DressApp/blob/master/Project_Poster.jpg)
 
 ## Getting Started
 
@@ -43,7 +47,8 @@ Run your project on your android device or emulator.
 
 ## Contact
 
-[Email](mailto:Emad.shx@gmail.com)
+[Emad Shx](mailto:Emad.shx@gmail.com)
+[Yung-Cheng Hsu](mailto:hsu.yung.c@gmail.com)
 
 ## Authors
 
